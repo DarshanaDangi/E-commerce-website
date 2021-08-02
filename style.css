@@ -1,0 +1,174 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    max-width: 1400px;
+}
+.nav-cap{
+    background-color:#3486eb;
+    color: white;
+}
+.nav-img{
+    margin:40px;
+}
+.navbar-nav li{
+    margin-right: 15px;
+}
+.banner{
+    position: relative;
+    text-align: start;
+}
+.banner-text{
+    width: 500px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px; 
+}
+.caption{
+ background-color: rgba(250, 250, 250, 0.9);
+padding: 30px;
+max-width: 450px;
+}
+
+.line-dec{
+   height: 5px;
+   width: 40px;
+   background-color: #3486eb;
+}
+
+.Fea-head{
+    text-align: start;
+    margin-top: 40px;
+}
+
+.Fea-con{
+    margin-top: 80px;
+}
+
+.Fea-con:hover{
+    cursor: pointer;
+}
+
+.Fea-con img:hover{
+    opacity: 0.7;
+}
+
+figcaption {
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.price{
+    margin-top: 15px;
+    font-size: x-large;
+}
+
+.Fea2{
+    margin-top: 40px;
+}
+
+.Sub-con{
+    margin-top: 60px;
+    background-color: #3486eb;
+    color: white;
+    padding: 80px;
+}
+.Sub-con .line-dec{
+    background-color: white;
+}
+
+#subscribe{
+    margin-top: 30px;
+}
+.form-control{
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+}
+#form-submit{
+    background-color: white;
+    color: #3486eb;
+    width: 100%;
+    height: 50px;
+}
+.footer-img{
+    padding: 80px;
+}
+.footer-menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu li{
+    display: inline;
+}
+.footer-menu li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  .footer-menu a:hover{
+        color: #3486eb;
+  }
+
+  .social-icons ul{
+    list-style-type: none;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.social-icons li{
+    display: inline;
+}
+
+.social-icons  li a {
+    color:gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+
+  .social-icons a:hover{
+      color: #3486eb;
+  }
+
+  .copy{
+      color: gray;
+      margin-top: 40px;
+  }
+
+  .about-head h3,.cont-head h3{
+      text-align: start;
+      margin-top: 20px;
+  }
+  .about-con, .cont-con{
+      margin-top: 40px;
+      font-size: medium;
+  }
+  .about-con h5, .cont-con h5{
+      color:gray;
+      
+  }
+  .about-con #name,#email,#subject,#message,#form-submit{
+      margin:0 10px 30px 0px;
+  }
+  .right-con{
+      text-align: start;
+  }
+  .con-form{
+      margin-top: 100px;
+  }
+  .cont-con h5{
+margin-top: 30px;
+  }
+
+@media (max-width:900px){
+    .form-control,#form-submit{
+        display: inline;
+        margin: 20px;
+    }
+}
